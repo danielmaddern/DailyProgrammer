@@ -38,5 +38,5 @@ while True:
     elif user_choice.lower() == 'q':
         break
     else:
-        print "%s is not a valid option not entered, try again." % user_choice
+        print "%s is not a valid option, try again." % user_choice
         user_choice = raw_input('Would you like to [e]ncrypt, [d]ecrypt or [q]uit?  ')
