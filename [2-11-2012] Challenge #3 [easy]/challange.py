@@ -27,7 +27,7 @@ while True:
                     if new_letter > 25:
                         new_letter -= 26
                     encrypted_text = encrypted_text + letters[new_letter]
-                    added_to_encrtyped_string = True
+                    added_to_encrypted_string = True
             if added_to_encrypted_string == False:
                 encrypted_text = encrypted_text + x
 
