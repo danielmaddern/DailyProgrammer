@@ -5,8 +5,6 @@ Then, your program should compute the day of the week that date will fall on.
 
 """
 import datetime
-from datetime import date
-import calendar
 
 print "This program will tell you what day a particular date falls on."
 # Enter a Day:
